@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2" ng-repeat="item in list">
+        <div class="thumbnail">
+        <div class="image-clip">
+            <img ng-src="{{item.media.m}}">
+        </div>
+        <div class="caption">
+            <h3 title="{{ item.title }}" >{{ item.title }}</h3>
+            <p>{{ item.author }}</p>
+        </div>
+        <footer class="footer">
+            <div class="row">
+                <div class="col-xs-12 col-md-4">
+                    {{ item.date_taken | date:'short' }}
+                </div>
+            <div class="col-xs-12"> 
+                <a href="{{item.link}}" target="_blank" class="btn btn-primary pull-right" role="button">
+                    Link
+                    <i class="fa fa-external-link"></i>
+                </a>
+            </div>
+        </footer>
+        </div>
+    </div>
+</div>

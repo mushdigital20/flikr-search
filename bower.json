@@ -1,0 +1,23 @@
+{
+  "name": "isentia",
+  "version": "1.4.0",
+  "homepage": "https://github.com/mushdigital20/flikr-search",
+  "authors": [
+    "Pedro Mello <pedrohmello@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.2",
+    "angular-mocks": "~1.4.2",
+    "angular-ui-router": "~0.2.15",
+    "ngCordova": "~0.1.20-alpha",
+    "bootstrap-sass": "^3.3.6"
+  }
+}

@@ -1,0 +1,17 @@
+
+<h1>Flickr Search</h1>
+
+<div class="input-group">
+    <input type="text"
+           class="form-control" 
+           placeholder="Search for..." 
+           ng-model="home.searchTerm"
+           ng-keypress="home.keypress($event)">
+    
+    <span class="input-group-btn">
+        <button class="btn btn-primary" ng-click="home.search()" type="button">Go!</button>
+    </span>
+</div> 
+
+<thumbnails list="home.data"></thumbnails>
+
